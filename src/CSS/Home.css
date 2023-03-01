@@ -1,0 +1,21 @@
+.passport{
+    height: 400px;
+    width: 250px;
+    
+}
+.my-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-project{
+    padding: 10px 1rem;
+    background: yellow;
+   display: flex;
+   margin-left: 40%;
+}
+.btn-project:hover{
+    background-color: white;
+    color: red;
+    transition: 0.3s;
+}

@@ -1,0 +1,38 @@
+.project-list{
+color: rgb(0,0,0);
+
+}
+.project-list h1{
+    text-decoration: underline;
+   
+}
+
+.project-list ol .container{
+    height: 400px;
+    width: 300px;
+    background-color: aquamarine;
+    margin: 10px;
+    list-style-type: none;    
+}
+.project-list ol .container a{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50%;
+
+}
+.project-list ol .container a li{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.project-list ol .container a li:hover{
+    color: blue;
+    font-size: large;
+}
+.cards{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
