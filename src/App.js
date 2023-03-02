@@ -1,5 +1,4 @@
 
-import { useState } from 'react';
 import './CSS/App.css';
 import Home from './Home';
 import Projects from './Projects';
@@ -11,11 +10,16 @@ import Contact from "./Contact"
 
 
 
+
+
 function App() {
   return(
     <div className="container">
       <BrowserRouter>
       <NavBar/>
+     
+     
+      
       <Routes>
 
         <Route path={'/'} element={<Home/>}> </Route>

@@ -6,6 +6,10 @@ import CloseIcon from "@mui/icons-material/Close";
 
 function NavBar() {
   const [click, setClick]= useState("false");
+
+  const handleClick=()=>{
+    setClick(!click)
+  }
  
 //  function myfunction(){
   
@@ -26,24 +30,27 @@ function NavBar() {
         </Link>
       </div>
 
-      <div className="nav-menu">
-        <ul id="myLinks">
-          <Link to={"/"}>
-            <li>Home</li>
-          </Link>
-          <Link to={"/about"}>
-            <li>About</li>
-          </Link>
-          <Link to={"/project"}>
-            <li>Projects</li>
-          </Link>
-          <Link to={"/contact"}>
-            <li>Contacts</li>
-          </Link>
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
+       
+         
+            <li> <Link to={"/"}>Home</Link></li>
+          
+          
+            <li><Link to={"/about"}>About </Link></li>
+         
+          
+            <li><Link to={"/project"}>Projects</Link></li>
+          
+          
+            <li><Link to={"/contact"}>Contacts </Link></li>
+         
         </ul>
-      </div>
-      <div className="menu-icon" onClick={myfunction}>
-        {click ? <CloseIcon /> : <MenuIcon /> }       
+      
+      <div className="menu-icon" onClick={handleClick} >
+        {click ? (<CloseIcon />):(<MenuIcon /> )
+        }
+        
+          
       
         
       </div>

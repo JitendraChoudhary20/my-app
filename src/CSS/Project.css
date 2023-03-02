@@ -4,7 +4,8 @@ color: rgb(0,0,0);
 }
 .project-list h1{
     text-decoration: underline;
-   
+    background-image: linear-gradient(to right,red,green); 
+
 }
 
 .project-list ol .container{
