@@ -9,11 +9,6 @@ import Contact from "./Contact"
 import HeroImg from './HeroImg';
 
 
-
-
-
-
-
 function App() {
   return(
     <div className="container">
@@ -32,9 +27,6 @@ function App() {
 
       </Routes>
       
-      
-      
-    
       </BrowserRouter>
     </div>
 
