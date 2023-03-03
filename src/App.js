@@ -6,6 +6,8 @@ import NavBar from './NavBar';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import About from './About';
 import Contact from "./Contact"
+import HeroImg from './HeroImg';
+
 
 
 
@@ -17,7 +19,7 @@ function App() {
     <div className="container">
       <BrowserRouter>
       <NavBar/>
-     
+     <HeroImg/>
      
       
       <Routes>

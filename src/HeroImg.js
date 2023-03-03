@@ -1,7 +1,7 @@
 import React from 'react'
 import "./CSS/HeroImg.css";
 import heroimg from "./Images/heroimg.webp";
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 
 
 
@@ -24,6 +24,8 @@ const HeroImg = () => {
             </Link>
             
         </div>
+        
+       
         </div>
       
     </div>

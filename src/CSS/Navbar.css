@@ -9,17 +9,21 @@ body{
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 10;
+    
+}
 
+.navbar-bg{
+    background-color: black;
+    opacity: 0.85;
 }
 
 .header{
-    margin-left: 1rem;
+    margin-left: 1rem;   
+    
 }
-.header h1:hover{
-   color: black;
-   background-color: white;
-   transition: 0.5ms;
-}
+
+
 .nav-menu{
     display: flex;
     justify-content: center;
@@ -59,13 +63,13 @@ h1,p,li{
         position: absolute;
         top: 0;
         left: -100%;
-        z-index: -10;
+        z-index: -15;
         background-color: black;
         transition: 0.3s;
 
     }
     .nav-menu.active{
-        left: 0;
+        left: 0;    
         
     }
     .nav-menu a{
@@ -74,6 +78,17 @@ h1,p,li{
     .navbar .menu-icon{
         display: block;
     }
+    .navbar .resume a .btn-light{
+        color: red;
+       padding: 1px;
+       max-width: 60px;
+       margin-left: auto;
+    }
+    .header{
+        font-size: 12px;
+    }
+    
+    
 }
 /* @media screen and (max-width: 640px){
     .nav-menu{

@@ -2,6 +2,7 @@
     height: 400px;
     width: 250px;
     
+    
 }
 .my-info{
     display: flex;
@@ -12,10 +13,31 @@
     padding: 10px 1rem;
     background: yellow;
    display: flex;
-   margin-left: 40%;
+   margin-left: 50%;
+   margin-bottom: 100px;
 }
 .btn-project:hover{
     background-color: white;
     color: red;
     transition: 0.3s;
+}
+@media screen and (max-width: 1040px){
+    .my-info{
+        display: flex;
+        flex-direction: column;    
+    }
+    .my-info .passport{
+        border-radius: 50%;
+        
+    }
+    .my-info h2{
+        color: blue;
+    }
+    .btn-project{
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 100px;
+        
+    }
+
 }

@@ -6,29 +6,32 @@ import CloseIcon from "@mui/icons-material/Close";
 
 function NavBar() {
   const [click, setClick]= useState("false");
+  const [color, setColor]= useState("false");
+
+  const changeColor = ()=>{
+    if(window.scrollY>=10){
+      setColor("true");
+    }
+    else{
+      setColor("false");
+    }
+  }
 
   const handleClick=()=>{
     setClick(!click)
   }
  
-//  function myfunction(){
-  
-//     var x = document.getElementById("myLinks");
-//     if(x.style.display==="block"){
-//       x.style.display="none";
-//     }
-//       else{
-//         x.style.display="block";
-//       }
-//     }
-  
+  window.addEventListener("scroll", changeColor);
   return (
-    <div className="navbar">
+    <div className={color ? "navbar navbar-bg" : "navbar"}>
       <div className="header">
         <Link to={"/"}>
           <h1>Portfolio</h1>
         </Link>
       </div>
+      <div className="resume">
+        <a href="https://jitendraresume.netlify.app"  target="_blank"><button className='btn-light' >My Resume</button></a>
+        </div>
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>
        
@@ -48,8 +51,7 @@ function NavBar() {
       
       <div className="menu-icon" onClick={handleClick} >
         {click ? (<CloseIcon />):(<MenuIcon /> )
-        }
-        
+        }     
           
       
         

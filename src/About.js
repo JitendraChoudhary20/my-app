@@ -1,5 +1,6 @@
 import { Button } from "@mui/material";
 import { useState } from "react";
+import "./CSS/About.css"
 
 function About(){
    
