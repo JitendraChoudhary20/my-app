@@ -1,3 +1,9 @@
+/* .contact-info{
+    top: 0;
+    left: 0;
+    z-index: 10;
+} */
+
 .home-icon{
     color: white;
     display: flex;
@@ -13,6 +19,7 @@ h1{
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-decoration: underline;
 }
 .contact{
     display: flex;
@@ -64,6 +71,7 @@ h1{
     height: 2rem;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 .connect .linkedin:hover{
     color: red;

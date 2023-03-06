@@ -1,3 +1,10 @@
+
+.home{
+    z-index: 10;
+   margin: 2rem ;
+ 
+}
+
 .passport{
     height: 400px;
     width: 250px;

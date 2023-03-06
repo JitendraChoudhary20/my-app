@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div>
       <div className="contact-info">
-      <h1>Contact me:</h1>
+      <h1>Contact</h1>
       <div className="contact">
         <LocalPhoneOutlinedIcon/>
         <p>8657393795</p>
