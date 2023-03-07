@@ -5,12 +5,14 @@ import taskMangrBG from "./Images/taskMangrBG.webp";
 import Comment_Like_BG from "./Images/Comment_Like_BG.jpg";
 import OTPform from "./Images/OTPform.jpg";
 import resumeBG from "./Images/resumeBG.jpg";
+import HeroImg2 from "./HeroImg2";
 
 
 export default function Projects(){
     return(
       
         <div className="project-list">
+            <HeroImg2 heading="PROJECT." content="Here are some of my recent Works"/>
             <h1>My Projects</h1>
             <ol>
                 <div className="cards">

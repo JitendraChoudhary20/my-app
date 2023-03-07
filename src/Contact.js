@@ -4,10 +4,12 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import "./CSS/Contact.css"
 import "./index.css"
+import HeroImg2 from './HeroImg2';
 
 const Contact = () => {
   return (
     <div>
+      <HeroImg2 heading="CONTACT." content="Lets have some Chats"/>
       <div className="contact-info">
       <h1>Contact</h1>
       <div className="contact">
