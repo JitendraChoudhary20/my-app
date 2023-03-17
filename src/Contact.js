@@ -30,10 +30,10 @@ const Contact = () => {
       <div className="connect">
         <div>
           <h3>Follow me at-</h3>
-        <a className='linkedin' href="www.linkedin.com/in/jitendra-choudhary-122b05256" >LinkedIn</a>
+        <a className='linkedin' href="www.linkedin.com/in/jitendra-choudhary-122b05256" target="_blank">LinkedIn</a>
         </div>
         <div>
-        <a className='github' href="https://github.com/JitendraChoudhary20">GitHub</a>
+        <a className='github' href="https://github.com/JitendraChoudhary20" target="_blank">GitHub</a>
         </div>
       </div>    
     
