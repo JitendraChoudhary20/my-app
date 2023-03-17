@@ -10,8 +10,8 @@ function About(){
       <HeroImg2 heading="ABOUT." content="I m a Friendly front-End Developer."/>   
        <h2>Hello, This is Jitendra Narendra Choudhary</h2> 
        <p>Executive Engineer with Four years of experience working in Production. 
-         I<br /> am a diligent and resilient developer having frontend knowledge in HTML,
-         <br /> CSS, JavaScript, and backend knowledge in Java.</p>
+         I<br /> am a Front-End developer having knowledge of React, HTML,
+         <br /> CSS and JavaScript in Java.</p>
       </div>
     );
 }
