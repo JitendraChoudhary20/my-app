@@ -30,7 +30,9 @@ function NavBar() {
         </Link>
       </div>
       <div className="resume">
-        <a href="https://jitendraresume.netlify.app"  target="_blank"><button className='btn-light' >My Resume</button></a>
+        <a href="https://jitendraresume.netlify.app"  target="_blank"><button className='btn-light' >View Resume</button></a>
+        <a href="Resume.pdf" download={"Jitendra Resume.pdf"} target="_blank">
+        <button  className="btn-light" >Download Resume</button> </a>
         </div>
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -48,6 +50,8 @@ function NavBar() {
             <li><Link to={"/contact"}>Contacts </Link></li>
          
         </ul>
+
+
       
       <div className="menu-icon" onClick={handleClick} >
         {click ? (<CloseIcon />):(<MenuIcon /> )

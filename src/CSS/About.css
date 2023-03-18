@@ -1,9 +1,15 @@
 .About{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     z-index: 2;
+    
+    
+}
+.About p{
+    max-width: 600px;
+   text-align: justify;
     
 }
 .About h2{
@@ -16,6 +22,7 @@
     .About{
         display: block;
         font-size: small;
+       
     }
     .About h2{
         font-size: 20px;
@@ -29,6 +36,8 @@
     .About p{
         font-size: 17px;
         color: white;
-        margin-left: 20%;
+        margin: 40px;
+        text-align: justify;
+       
     }
 }
