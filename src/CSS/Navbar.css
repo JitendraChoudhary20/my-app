@@ -70,11 +70,16 @@ h1,p,li{
 
     }
     .nav-menu.active{
-        left: 0;    
+        left: 0; 
+        display: flex;   
+        justify-content: center;
+        align-items: center;
+
         
     }
+
     .nav-menu a{
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
     .navbar .menu-icon{
         display: block;

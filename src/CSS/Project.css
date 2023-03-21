@@ -15,7 +15,8 @@ color: rgb(0,0,0);
     background-color: aquamarine;
     margin: 10px;
     padding: 20px;
-    list-style-type: none;    
+    list-style-type: none;   
+  
 }
 .project-list ol .container a{
 display: flex;
@@ -25,10 +26,11 @@ padding: 10px;
 
 }
 .project-list ol .container  img{
-    position: relative;
+  
     width: 90%;
     height: 90%;
    margin: 25px ;
+  
    
 }
 .project-list ol .container a li{
@@ -59,7 +61,28 @@ padding: 10px;
         align-items: center;      
     }
     .project-list ol .container a li{
-        margin-top: 0%;        
+        margin-top: 0%;
+        font-size: 1rem;        
+    }
+    .project-list ol .container{
+        height: 40vh;
+        width: 50%;
+        background-color: aquamarine;
+        margin: 10px;
+        padding: 20px;
+        list-style-type: none;   
+      
+    }
+    .project-list ol .container a{
+        
+        padding: 0px;
+        
+     }
+    .project-list ol .container img{  
+        width: 90%;
+        height: 80%;
+       margin: 10px ;    
+       
     }
     
 }

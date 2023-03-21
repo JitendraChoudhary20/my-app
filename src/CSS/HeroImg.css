@@ -84,7 +84,7 @@ padding: 10px;
 }
 @media screen and (max-width: 1040px){
     .content p{
-        font-size: 24px;
+        font-size: 22px;
     }
     .btn-dark{
         padding: 5px;
