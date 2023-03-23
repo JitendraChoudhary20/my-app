@@ -74,8 +74,8 @@ h1,p,li{
         display: flex;   
         justify-content: center;
         align-items: center;
-
-        
+        transform: translateX(-6%);
+      
     }
 
     .nav-menu a{

@@ -37,12 +37,7 @@ export default function Projects(){
                 <img src={OTPform} alt="whatsappImage" />
                 </div>
                 </div>
-                
-               
-                
-                
-                
-                
+             
             </ol>
        </div>
       

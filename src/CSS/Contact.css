@@ -78,3 +78,16 @@ h1{
     background-image: linear-gradient(to right,blue,green,yellow);
     transition: 1s;
 }
+@media screen and (max-width: 1040px){
+    .contact-info h1{
+        font-size: 22px;
+        text-align: left;
+
+    }
+    .contact-info .email{
+       text-align: left;
+    }
+    .contact-info .email{
+        text-align: left;
+     }
+}
