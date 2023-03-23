@@ -51,13 +51,9 @@ function NavBar() {
          
         </ul>
 
-
-      
       <div className="menu-icon" onClick={handleClick} >
         {click ? (<CloseIcon />):(<MenuIcon /> )
         }     
-          
-      
         
       </div>
     </div>
