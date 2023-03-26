@@ -34,10 +34,10 @@ const HeroImg = () => {
         
         <div className="btn">
           <Link to="/project">
-            <button className='btn-dark'>PROJECTS</button>
+            <button className='btn-primary'>Projects</button>
             </Link>
             <Link to="/contact">
-            <button className='btn-light'>CONTACT</button>
+            <button className='btn-secondary'>Hire-me</button>
             </Link>
             
         </div>
