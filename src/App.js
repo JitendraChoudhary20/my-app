@@ -6,6 +6,7 @@ import NavBar from './NavBar';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import About from './About';
 import Contact from "./Contact"
+import Footer from './Footer';
 
 
 
@@ -23,7 +24,7 @@ function App() {
 
 
       </Routes>
-      
+      <Footer/>
       </BrowserRouter>
     </div>
 

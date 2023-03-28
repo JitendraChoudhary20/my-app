@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
 }
 p{
     margin-left: 1rem;
@@ -20,23 +21,25 @@ h1{
     text-transform: uppercase;
     letter-spacing: 2px;
     text-decoration: underline;
+   
 }
 .contact{
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    margin: 1rem;
 }
 .email{
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    margin: 1rem;
 }
 .connect{
-    display: column;
-   
-    
+    display: column;  
+    margin: 1rem;
     font-weight: bold;
 }
 .connect .linkedin{
@@ -77,6 +80,14 @@ h1{
     color: red;
     background-image: linear-gradient(to right,blue,green,yellow);
     transition: 1s;
+}
+.footer{
+    margin-top: 5rem;
+    background-color: rgb(48, 35, 35);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("https://mars-metcdn-com.global.ssl.fastly.net/content/uploads/sites/101/2019/04/30174046/footer-background.png");
 }
 @media screen and (max-width: 1040px){
     .contact-info h1{

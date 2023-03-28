@@ -31,7 +31,7 @@ function NavBar() {
       </div>
       <div className="resume">
         <a href="https://jitendraresume.netlify.app"  target="_blank"><button className='btn-light' >View Resume</button></a>
-        <a href="Resume.pdf" download={"Jitendra Resume.pdf"} target="_blank">
+        <a href="Portfolio Jitendra.pdf" download={"Jitendra Portfolio.pdf"} target="_blank">
         <button  className="btn-light" >Download Resume</button> </a>
         </div>
 
